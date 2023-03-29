@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25c7771c-8302-41fe-961d-a5587907b69e" name="Changes" comment="Init">
+    <list default="true" id="25c7771c-8302-41fe-961d-a5587907b69e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Stage.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Stage.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Truckventure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Truckventure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SaveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/preview.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/RotationPreviewer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SFXManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SaveSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://E:/Unity Projects/Truckventure/Assets/Scenes/MainMenu.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScoreGiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SkinWheel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpinAndFloat.cs" root0="FORCE_HIGHLIGHTING" />
@@ -125,7 +130,9 @@
       <workItem from="1679947538188" duration="9407000" />
       <workItem from="1680020529659" duration="7599000" />
       <workItem from="1680035771086" duration="5883000" />
-      <workItem from="1680041945536" duration="2434000" />
+      <workItem from="1680041945536" duration="3067000" />
+      <workItem from="1680111119567" duration="158000" />
+      <workItem from="1680124613864" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1680043826258</created>
@@ -141,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680044112472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="preview image">
+      <created>1680044490659</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680044490659</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="preview image" />
+    <option name="LAST_COMMIT_MESSAGE" value="preview image" />
   </component>
 </project>

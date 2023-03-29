@@ -130,7 +130,7 @@ public class SaveFile
     public int saveVersion = 1;
     public uint coins = 0;
     public List<RunStats> pastRuns = new List<RunStats>();
-    public int runNumber = 1;
+    public int runNumber = 0;
 }
 
 [Serializable]
