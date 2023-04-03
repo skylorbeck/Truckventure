@@ -194,8 +194,10 @@ public class CarController : MonoBehaviour
         if (other.CompareTag("Finish"))
         {
             Debug.LogWarning("TODO Finish");
-            transform.position =
-                Vector3.zero + Vector3.up * RoadManager.Instance.activeSegments[0].transform.position.y;
+            transform.position = RoadManager.Instance.outOfBoundsCube2.transform.position;
+            rb.velocity = Vector3.zero;
+            targetPosition = RoadManager.Instance.outOfBoundsCube2.transform.position;
+            rb.angularVelocity = Vector3.zero;
             Hurt(40);
         }
     }

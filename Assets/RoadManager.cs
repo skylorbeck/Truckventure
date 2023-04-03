@@ -37,6 +37,7 @@ public class RoadManager : MonoBehaviour
     public int piecesPerBiome = 5;
 
     public GameObject outOfBoundsCube;
+    public GameObject outOfBoundsCube2;
 
     public int desiredSegmentCount = 3;
 
@@ -102,6 +103,7 @@ public class RoadManager : MonoBehaviour
         }
 
         outOfBoundsCube.transform.position = new Vector3(car.transform.position.x,activeSegments[0].transform.position.y -15f,car.transform.position.z);
+        outOfBoundsCube2.transform.position = new Vector3(0,activeSegments[0].transform.position.y +15f,0);
     }
     
     public void GenerateNextSegment()
